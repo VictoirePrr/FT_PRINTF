@@ -6,12 +6,13 @@
 #    By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 12:55:24 by vicperri          #+#    #+#              #
-#    Updated: 2024/11/18 14:23:46 by vicperri         ###   ########lyon.fr    #
+#    Updated: 2024/11/19 16:16:35 by vicperri         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRCS = ft_printf.c ft_putchar.c ft_putstr.c ft_unsign_nbr.c ft_hexa_nbr.c ft_putnbr.c
+SRCS = ft_printf.c ft_putchar.c ft_putstr.c ft_unsign_nbr.c ft_hexa_nbr.c \
+	ft_putnbr.c ft_hexa_void.c
 
 OBJDIR = .obj
 OBJS = $(addprefix $(OBJDIR)/,$(SRCS:.c=.o))

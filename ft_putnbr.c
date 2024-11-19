@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 11:45:40 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/18 17:08:39 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/19 16:16:55 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_putnbr(int n)
 {
-	int count;
+	int	count;
 
 	count = 0;
 	if (n == -2147483648)
