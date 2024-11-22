@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 09:22:21 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/19 16:16:29 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/22 14:30:11 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_printf(const char *format, ...)
 	len = 0;
 	va_start(args, format);
 	if (format == NULL)
-		return (0);
+		return (-1);
 	while (format[i])
 	{
 		if (format[i] == '%')
