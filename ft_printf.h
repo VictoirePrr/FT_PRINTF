@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 12:31:55 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/19 16:22:19 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/22 14:34:48 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ int	ft_putstr(char *str);
 int	ft_putnbr(int n);
 int	ft_unsign_nbr(unsigned int n);
 int	ft_hexa_nbr(unsigned int n, char x);
-int	ft_hexa_void(unsigned long p);
+int	ft_hexa_void(unsigned long int p);
 
 #endif
